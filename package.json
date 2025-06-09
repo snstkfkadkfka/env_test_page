@@ -1,0 +1,22 @@
+{
+  "name": "web_env_test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build":"parcel build index.html -b build --public-url ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.89.1",
+    "sass-loader": "^16.0.5"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+
+  }
+}
