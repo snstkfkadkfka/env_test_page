@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "parcel index.html",
-    "build":"parcel build index.html -b build --public-url ."
+    "build":"parcel build index.html -d build --public-url ."
   },
   "keywords": [],
   "author": "",
